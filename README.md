@@ -77,6 +77,8 @@ source .venv/bin/activate  # On Unix/macOS
 
 ```bash
 uv pip install -r requirements.txt
+playwright install
+playwright install-deps
 ```
 
 ## Configuration
